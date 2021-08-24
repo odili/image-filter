@@ -1,5 +1,5 @@
 import express from 'express';
-import { filterImageFromURL, deleteLocalFiles } from './util/util';
+import { imageFilter } from './filter/filter.router';
 
 (async () => {
   // Init the Express application
@@ -25,9 +25,7 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
   //    image_url: URL of a publicly accessible image
   // RETURNS
   //   the filtered image file [!!TIP res.sendFile(filteredpath); might be useful]
-
-  /**************************************************************************** */
-
+  app.use('/filteredimage', imageFilter);
   //! END @TODO1
 
   // Root Endpoint
