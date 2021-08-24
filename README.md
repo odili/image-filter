@@ -1,6 +1,6 @@
 # submission
 
-- Endpoint URL : [ http://846283121060-image-filter-dev.us-east-1.elasticbeanstalk.com/](endpoint URL: http://846283121060-image-filter-dev.us-east-1.elasticbeanstalk.com/)
+- Endpoint URL : [ http://846283121060-image-filter-dev.us-east-1.elasticbeanstalk.com/](http://846283121060-image-filter-dev.us-east-1.elasticbeanstalk.com/)
 
 # Udagram Image Filtering Microservice
 
