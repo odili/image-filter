@@ -36,7 +36,7 @@ router.get('/', async (req, res) => {
     return res.status(422).send(`Image has some problem: ${e.message}`);
   }
 
-  if (filteredImagePath) res.sendFile(filteredImagePath);
+  if (filteredImagePath) res.status(200).sendFile(filteredImagePath);
 });
 
 export const imageFilter: Router = router;
